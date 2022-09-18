@@ -1,0 +1,320 @@
+@import "reset.css";
+/* =================шрифти===================== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,700&display=swap');
+
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-size: 18px;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	color: gold;
+	letter-spacing: 5px;
+}
+h2{
+	margin-left: 20px;
+	color: hotpink;
+	text-transform: uppercase;
+}
+
+/* =================Стилі top===================== */
+.top p +p{
+	font-family: "Playfair";
+	font-style: italic;
+	font-weight: 500;
+	color: green;
+	letter-spacing: 3px;
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: right;
+}
+.top{font-family: "Inter";
+	font-style: normal;
+	font-weight: 900;
+	margin: 10px;
+	
+}
+.top span{
+	color: aqua;
+}
+/* =================Стилі tittle===================== */
+li>ul {
+	margin-left: 10px;
+	color: violet;
+	font-size: 25px;
+}
+.some-item{
+	margin-left: 10px;
+	color: blue;
+	font-size: 22px;
+}
+.list-tittle>li{padding-left: 20px;}
+.list-tittle{font-family: "Playfair";
+	font-style: italic;
+	font-weight: 700;
+	color: red;
+	
+}
+/* =================Стилі system===================== */
+.system{
+	color: brown;
+}
+.system h3+div{font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	color: rgb(129, 73, 9);
+	font-size: 15px;
+   text-align: right;
+	line-height: 1.5;
+}
+ .system h3{
+	margin-left: 25px;
+	margin-bottom: 15px;
+	color: olive;
+	font-size: 19px;
+}
+.begin-system+div{font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	margin: 10px;
+	text-decoration: line-through;
+	color: lime;
+}
+.text-begin~p{
+	font-family: "Playfair";
+	font-style: italic;
+	font-weight: 500;
+	padding-top: 15px;
+	color: purple;
+	text-transform: capitalize;
+	text-align: left
+}
+.last-system p{
+	margin: 10px 20px;
+}
+/* =================Стилі buttles===================== */
+.buttles{font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	color: lawngreen;
+	margin-top: 30px;
+}
+.buttles h3 {
+	text-align: center;
+	text-decoration: overline;
+	word-spacing: 10px;
+	margin-bottom: 15px;
+}
+.buttles h3+p{
+	font-family: "Inter";
+		font-style: normal;
+		font-weight: 900;
+	font-size: 13px;
+	width: 200px;
+	padding-right: 25px;
+	margin-left: 100px;
+}
+.buttles img{
+	margin-bottom: 10px;
+}
+.buttles img +p{
+	color: rebeccapurple;
+	padding-left: 25px;
+	text-transform: lowercase;
+}
+/* =================Стилі occurrence===================== */
+#occurrence{
+	font-family: "Playfair";
+		font-style: italic;
+		font-weight: 700;
+	color: aquamarine;
+	font-size: 20px;
+	margin: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.occurrence p{
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	color: red;
+	margin-bottom: 15px;
+	word-spacing: 5px;
+}
+#occurrence+p+p{
+	padding: 15px;
+	color: olivedrab;
+	font-size: 14px;
+	text-decoration: underline;
+}
+#occurrence+p+p+p+p{font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	color: purple;
+	text-decoration: line-through;
+	text-indent: 10px;
+	text-shadow: 10px 10px 10px blue, 10px -10px 10px blue ;
+}
+/* =================Стилі theory===================== */
+ .theory h4{
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 27px;
+	text-shadow: 7px 5px 2px rgb(79, 99, 79),8px -3px 5px rgb(79, 99, 79);
+	margin: 0 0 15px 50px;
+}
+#theory~p{
+	font-family: "Playfair";
+	font-style: italic;
+	font-weight: 400;
+	padding: 10px 0 15px 18px;
+	font-size: 19px;
+	color: blue;
+	text-decoration: overline;
+}
+.list-theory>li{
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 900;
+	color: rgb(51, 51, 110);
+	font-size: 13px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	text-shadow: 5px 7px 11px green;
+}
+/* =================Стилі chronology===================== */
+.chronology h4{font-family: "Raleway";
+	font-style: normal;
+	font-weight: 500;
+	color: blue;
+	font-size: 28px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.chronology h4~p{font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	color: brown;
+	padding: 20px;
+	text-decoration: line-through;
+}
+.list-chronology li{
+	font-family: "Playfair";
+		font-style: italic;
+		font-weight: 700;
+	color: goldenrod;
+	margin-bottom: 7px;
+	padding-left: 25px;
+	text-transform: capitalize;
+}
+/* =================Стилі destroy===================== */
+.destroy{font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	color: blue;
+	font-size: 21px;
+}
+#destroy{
+	margin-left: 150px;
+	text-shadow: 7px 12px 15px rgb(51, 44, 1);
+	margin-bottom: 20px;
+}
+.destroy h4+a{font-family: "Raleway";
+	font-style: normal;
+	font-weight: 500;
+	color: aqua;
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+a + div.image{
+	margin: 15px;
+}
+.destroy p{
+	font-family: "Playfair";
+	font-style: italic;
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: green;
+}
+.destroy>p+p+p{
+	color: purple;
+	padding-left: 25px;
+	line-height: 2;
+}
+/* =================Стилі liquidation===================== */
+#liquidation{font-family: "Raleway";
+	font-style: normal;
+	font-weight: 900;
+	color: blue;
+	letter-spacing: 3px;
+	font-size: 24px;
+	text-align: right;
+	text-decoration: line-through;
+}
+#liquidation~.link-liquidation{
+	margin: 10px;
+	color: aqua;
+
+}
+.liquidation .image{
+	margin: 30px;
+}
+.liquidation>p{font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	color: purple;
+	margin-bottom: 8px;
+	text-shadow: 3px 8px 7px darkred;
+	padding: 0 20px;
+	text-align: justify;
+	text-indent: 15px;
+	line-height: 1.65;
+}
+/* =================Стилі person===================== */
+.person{font-family: "Raleway";
+	font-style: normal;
+	font-weight: 900;
+	color: gold;
+	font-size: 40px;
+	line-height: 1.25;
+}
+#person {
+	color: hotpink;
+	margin: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.person p{font-family: "Raleway";
+	font-style: normal;
+	font-weight: 500;
+	padding: 15px;
+	text-decoration: underline;
+}
+p>.link-person{
+	font-size: 50px;
+	color: green;
+	text-shadow: 7px -10px 10px red;
+}
