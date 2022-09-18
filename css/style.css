@@ -318,3 +318,14 @@ p>.link-person{
 	color: green;
 	text-shadow: 7px -10px 10px red;
 }
+/* =================Стилі footer===================== */
+.footer{
+	font-family: "Playfair";
+		font-style: italic;
+		font-weight: 900;
+		color: blue;
+		text-transform: uppercase;
+		text-shadow: 5px 10px 2px rgb(56, 45, 45),5px -10px 2px rgb(56, 45, 45);
+		text-align: center;
+		margin: 15px;
+}
